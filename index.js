@@ -70,7 +70,7 @@ let cardsPool = [],
 //產生一副牌函式
 const initCards = () => {
   const suit = ["c", "s", "d", "h"];
-  const point = [1, 1, 1, 1];
+  const point = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
   for (i = 0; i < suit.length; i++) {
     for (j = 0; j < point.length; j++) {
       cardsPool.push(createCard(suit[i], point[j]));
